@@ -1,5 +1,6 @@
 /* HangmanGame.css */
 
+<<<<<<< HEAD
 /* Center the game container */
 .container {
   display:flex;
@@ -8,6 +9,29 @@
   height: 85vh;
   width:auto;
   background-color:rgb(249, 230, 251);
+=======
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+/* Center the game container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the game board */
+.game-board {
+  background-color: #d899b7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+>>>>>>> 4ac5b4d (“Update”)
 }
 
 /* Style the word display */
@@ -33,8 +57,12 @@
 
 /* Style the attempts left display */
 .attempts-left {
+<<<<<<< HEAD
   font-size: 45px;
   color: rgb(255, 183, 0);
+=======
+  font-size: 18px;
+>>>>>>> 4ac5b4d (“Update”)
   margin-bottom: 20px;
 }
 
@@ -45,6 +73,7 @@
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 /* Style the progress bar */
 
 .progress-bar:hover {
@@ -82,6 +111,21 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+=======
+/* Style the keyboard */
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+>>>>>>> 4ac5b4d (“Update”)
 }
 
 /* Style the keyboard buttons */
@@ -94,14 +138,20 @@
   cursor: pointer;
   background-color: #007bff;
   color: #fff;
+<<<<<<< HEAD
   transition: background-color 0.3s;
   margin-right: 10px; /* Add margin-right for spacing between buttons */
+=======
+  margin-left: 5px; /* Add spacing between buttons */
+  transition: background-color 0.3s;
+>>>>>>> 4ac5b4d (“Update”)
 }
 
 .keyboard button:hover {
   background-color: #0056b3;
 }
 
+<<<<<<< HEAD
 .keyboard-row button:last-child {
   margin-right: 0;
 }
@@ -110,6 +160,8 @@
   background-color: #0056b3;
 }
 
+=======
+>>>>>>> 4ac5b4d (“Update”)
 /* Style the Restart and Help buttons */
 .restart-button,
 .help-button {
@@ -118,6 +170,7 @@
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 /* Style the Hangman image */
 .hangman-image {
   max-width: 100%;
@@ -129,6 +182,8 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+=======
+>>>>>>> 4ac5b4d (“Update”)
 /* Style the Help modal */
 .modal-content {
   border-radius: 10px;
@@ -158,10 +213,71 @@
   background-color: #999;
 }
 
+<<<<<<< HEAD
+=======
+/* Style the Hangman image */
+.hangman-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center; /* Center the image */
+}
+
+.kirby-logo {
+  max-width: 450px; /* Adjust the logo size as needed */
+}
+
+.header-container {
+  background-color: #333; /* Set the background color as needed */
+  color: white; /* Set the text color as needed */
+  padding: 10px 0; /* Add padding as needed */
+}
+
+.header-container .row {
+  align-items: center; /* Vertically center the content */
+  justify-content: space-between; /* Spread the content horizontally */
+}
+
+/* Add styles for the hint section */
+.hint-button {
+  margin-bottom: 10px;
+}
+
+.hint {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Add styles for the score and streak sections */
+.score-streak {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.score {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.streak {
+  font-weight: bold;
+  color: #28a745; /* Green color for streak */
+}
+
+
+>>>>>>> 4ac5b4d (“Update”)
 /* Styles for screens larger than or equal to medium (md) */
 @media (min-width: 768px) {
   .game-status {
     font-size: 28px;
+<<<<<<< HEAD
   }
 }
 
@@ -219,3 +335,18 @@
 
 
 
+=======
+  }
+}
+
+/* Styles for screens larger than or equal to large (lg) */
+@media (min-width: 992px) {
+  .word-to-guess {
+    font-size: 28px;
+  }
+  .attempts-left {
+    font-size: 20px;
+  }
+}
+
+>>>>>>> 4ac5b4d (“Update”)
