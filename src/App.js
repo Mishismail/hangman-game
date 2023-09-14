@@ -192,7 +192,7 @@ render() {
             {gameStatus === "playing" && (
               <Row className="justify-content-between align-items-center">
                 <Col md={6}>
-                  <ProgressBar now={this.state.streak} label={`Score: ${score}%`} />
+                  <ProgressBar variant="info" now={this.state.streak} label={`Score: ${score}%`} />
                 </Col>
                 {/* Hint Section */}
                 <Col md={6}>
