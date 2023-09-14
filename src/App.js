@@ -463,8 +463,6 @@ class HangmanGame extends Component {
 
 // HelpModal component to display game rules
 const HelpModal = ({ show, handleClose }) => {
-// HelpModal component to display game rules
-const HelpModal = ({ show, handleClose }) => {
   return (
     <Modal show={show} onHide={handleClose}>
       <Modal.Header closeButton>
@@ -498,6 +496,5 @@ const HelpModal = ({ show, handleClose }) => {
     </Modal>
   );
  };
-}
 
 export default HangmanGame;
